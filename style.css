@@ -40,6 +40,8 @@ main {
     padding: 2%;
 }
 
+
+
 p {
     text-indent: 30px;
 }
@@ -51,6 +53,11 @@ a {
 
 .historia {
     margin: 0%;
+}
+
+.imagem img {
+    height: 100%;
+    width: 100%;
 }
 
 div {
