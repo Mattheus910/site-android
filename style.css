@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+    font-family: andoid;
+    src: url(fontes/idroid.otf) format(opentype);
+}
+
+header {
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    border: 1px solid red;
+    text-align: center;
+}
+
+nav {
+    text-align: left;
+}
+nav > a {
+    color: white;
+    text-decoration: none;
+}
+
+
