@@ -1,15 +1,24 @@
 @charset "UTF-8";
 @font-face {
-    font-family: andoid;
+    font-family:android;
     src: url(fontes/idroid.otf) format(opentype);
 }
 
+body {
+    background-color: rgb(172, 240, 172);
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 header {
-    background-color: green;
-    font-weight: bold;
+    background-image: linear-gradient(rgb(7, 177, 7), rgb(12, 80, 3));
     color: white;
-    border: 1px solid red;
     text-align: center;
+    padding: 10px;
+}
+
+main > h2 {
+    font-family: android, sans-serif;
 }
 
 nav {
@@ -17,7 +26,36 @@ nav {
 }
 nav > a {
     color: white;
-    text-decoration: none;
+    text-decoration: none;font-weight: bold;
 }
 
+main {
+    justify-content: center;
+    align-items: center;
+    margin: 0% 20%;
+    background-color: white;
+    padding: 2%;
+}
 
+p {
+    text-indent: 30px;
+}
+
+.robo {
+    margin: auto;
+}
+
+.historia {
+    margin: 0%;
+}
+
+div {
+    background-color: lightgreen;
+    border-radius: 12px;
+    padding:2px 12px;
+}
+
+div > h2 {
+    background: green;
+    margin: 5px;
+}
