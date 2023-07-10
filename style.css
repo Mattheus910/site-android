@@ -8,6 +8,7 @@ body {
     background-color: rgb(172, 240, 172);
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 header {
@@ -15,6 +16,11 @@ header {
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: sans-serif;
+}
+
+header > p {
+    text-justify: auto;
 }
 
 main > h2 {
@@ -49,6 +55,7 @@ p {
 a {
     color: rgb(2, 97, 2);
     text-decoration: none;
+    font-weight: bold;
 }
 
 .historia {
@@ -58,6 +65,26 @@ a {
 .imagem img {
     height: 100%;
     width: 100%;
+}
+
+.video {
+    display: flex;
+    background-color: darkgreen;
+    border-radius: 0;
+    padding: 1em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.video iframe {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+main > .video {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 div {
@@ -83,3 +110,17 @@ footer > p {
     padding: 5px;
     font-style: italic;
 }
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 0%;
+    padding-right: 5em;
+    text-decoration: underline;
+
+}
+
+.custom-list li:before {
+    content: "🗸";
+    margin-right: 0.5em;
+  }
