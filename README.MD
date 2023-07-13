@@ -8,7 +8,7 @@ Este é um site que apresenta informações sobre o sistema operacional Android 
 ![Print da Versão Inicial](imagens/minha-versao.png)
 
 ### Correção de Gustavo Guanabara
-![Print da Correção de Gustavo Guanabara](link-para-o-print-da-correcao-de-gustavo-guanabara)
+![Print da Correção de Gustavo Guanabara](imagens/pagina-guanabara.png)
 
 ## 🛠️ Tecnologias Utilizadas
 
